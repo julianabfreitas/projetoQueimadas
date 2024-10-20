@@ -1,0 +1,4 @@
+# jupyter/requirements.txt
+numpy
+pandas
+minio
