@@ -4,3 +4,4 @@ jupyter/data
 jupyter/notebooks/.ipynb_checkpoints
 
 minio/data
+minio/keys
