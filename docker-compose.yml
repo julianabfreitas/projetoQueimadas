@@ -3,6 +3,7 @@ version: '3'
 services:
   jupyter:
     build: ./jupyter
+    container_name: projetoQueimadasJupyter
     ports:
       - "${JUPYTER_PORT}:${JUPYTER_PORT}"
     volumes:
@@ -14,6 +15,7 @@ services:
 
   minio:
     build: ./minio
+    container_name: projetoQueimadasMinio
     ports:
       - '${MINIO_API_PORT}:${MINIO_API_PORT}'
       - '${MINIO_CONSOLE_PORT}:${MINIO_CONSOLE_PORT}'
