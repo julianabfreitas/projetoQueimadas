@@ -2,6 +2,7 @@
 
 jupyter/data
 jupyter/notebooks/.ipynb_checkpoints
+jupyter/notebooks/__pycache__
 
 minio/data
 minio/keys
