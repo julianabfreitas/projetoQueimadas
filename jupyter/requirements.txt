@@ -1,5 +1,5 @@
 # jupyter/requirements.txt
-numpy
-pandas
-minio
-python-dotenv
+numpy==2.1.1
+pandas==2.2.3
+minio==7.2.10
+python-dotenv==1.0.1
